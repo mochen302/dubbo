@@ -18,6 +18,7 @@ public class ClientMain {
         registry.setAddress("multicast://224.5.6.7:1234?unicast=false");
         registry.setUsername("aaa");
         registry.setPassword("bbb");
+        
 
 // 注意：ReferenceConfig为重对象，内部封装了与注册中心的连接，以及与服务提供方的连接
 
